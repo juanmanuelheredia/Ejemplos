@@ -12,5 +12,6 @@ print(f'Que son {array}')
 # Imprimir desde el 0 hasta :n
 n=2
 print(f'Los {n} primeros valores son {array[:n]}')
+print(f'El valor nº 3 es el {array[3]')
 array.remove('mundo')
 print(array)
