@@ -1,4 +1,16 @@
-def funcion():
-  print('Estoy dentro de la función')
-print('LLamo a la función')
-funcion()
+import datetime
+def saludar():
+  print('Hola')
+  print(datetime.datetime.now())
+
+def despedirse():
+  print('Adios')
+
+menu=int(input('Escribe 1 o 2 '))
+if menu==1:
+  saludar()
+elif menu==2:
+  despedirse()
+
+
+
