@@ -5,7 +5,6 @@ os.system('cls')
 
 def inicio():
   os.system('cls')
-
   try:
     global bebidas
     global seleccion
@@ -19,7 +18,6 @@ def inicio():
     inicio()
 
 def pago():
-
   try:
     cobro= float(input(f'Insete {bebidas[seleccion]}€'))
     while cobro < bebidas[seleccion]:
