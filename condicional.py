@@ -1,7 +1,7 @@
 print('Vamos a comparar 4 valores de 2 en 2')
 condicion1=input('Escribe algo')
 igual1=input('Dime algo más para compararlo')
-condicion12=input('Escribe algo')
+condicion2=input('Escribe algo')
 igual2=input('Dime algo más para compararlo')
 if condicion1 == igual1 and condicion2 == igual2:
   print('Ambas comparaciones son correctas')
