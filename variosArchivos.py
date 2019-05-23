@@ -1,10 +1,13 @@
 # Importo el archivo indicando la carpeta y el nombre sin la extensión, si no estuviera en una carpeta podría omitir "from carpeta"
 from carpeta import archivo
+
+
 a=1
 b=2
 # Llamo al archivo y la funcion con el formato "archivo.funcion()"
 # Tengo que enviar los datos que necesita el archivo, por eso incluyo (a,b)
 archivo.sumar(a,b)
+archivo.funcion()
 # Llamo a la variable con archivo.variable
 print(archivo.resultado)
 print('Archivo raíz')

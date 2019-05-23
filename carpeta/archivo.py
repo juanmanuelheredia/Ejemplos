@@ -3,3 +3,6 @@ def sumar(a,b):
   global resultado
   resultado=a+b
 print('1- Archivo importado')
+
+def funcion():
+  print ('Hola')

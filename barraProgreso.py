@@ -27,7 +27,7 @@ class nombreClase(tk.Tk):
         self.root["value"] = self.valor
         if self.valor < self.valorMaximo:
             # read more bytes after 100 ms
-            self.after(100, self.read_bytes)
+
         # print(valor)
     
 app = nombreClase()
